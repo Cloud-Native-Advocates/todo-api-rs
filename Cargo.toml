@@ -1,0 +1,15 @@
+[package]
+name = "todo-api"
+version = "0.1.0"
+edition = "2018"
+
+[dependencies]
+tokio = { version = "1.11.0", features = ["full"] }
+futures = { version = "0.3.17" }
+axum = { version = "0.2.5" }
+async-graphql = { version = "2.10.0" }
+async-graphql-axum = { version = "2.10.0" }
+anyhow = { version = "1.0.44" }
+serde = { version = "1.0.130", features = ["derive"] }
+serde_json = { version = "1.0.68" }
+mongodb = { version = "2.0.0" }
