@@ -6,9 +6,9 @@ edition = "2018"
 [dependencies]
 tokio = { version = "1.19.2", features = ["full"] }
 futures = { version = "0.3.21" }
-axum = { version = "0.5.9" }
-async-graphql = { version = "4.0.6" }
-async-graphql-axum = { version = "4.0.6" }
+axum = { version = "0.5.17" }
+async-graphql = { version = "4.0.16" }
+async-graphql-axum = { version = "4.0.16" }
 anyhow = { version = "1.0.58" }
 serde = { version = "1.0.137", features = ["derive"] }
 serde_json = { version = "1.0.81" }
